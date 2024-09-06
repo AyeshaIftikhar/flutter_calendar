@@ -2,9 +2,10 @@
 
 Simple flutter calendar based on [flutter_neat_and_clean_calendar](https://github.com/rwbr/flutter_calendar) package.
 
-![Screenshot](https://github.com/AyeshaIftikhar/flutter_calendar/screenshots/flutter_01.png)
-![Screenshot](https://github.com/AyeshaIftikhar/flutter_calendar/screenshots/flutter_02.png)
-![Screenshot](https://github.com/AyeshaIftikhar/flutter_calendar/screenshots/flutter_03.png)
+| --------------------------------------- | --------------------------------------- | --------------------------------------- |
+|![Screenshot](https://github.com/AyeshaIftikhar/flutter_calendar/blob/main/screenshots/flutter_01.png)|
+![Screenshot](https://github.com/AyeshaIftikhar/flutter_calendar/blob/main/screenshots/flutter_02.png)|![Screenshot](https://github.com/AyeshaIftikhar/flutter_calendar/blob/main/screenshots/flutter_03.png)|
+| --------------------------------------- | --------------------------------------- | --------------------------------------- |
 
 ## Features
 
@@ -233,5 +234,3 @@ class _CalendarScreenState extends State<CalendarScreen> {
 }
 
 ```
-
-
