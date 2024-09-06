@@ -1,5 +1,4 @@
 
-// import 'package:macos_ui/macos_ui.dart';
 import 'package:flutter/material.dart';
 
 class PlatformIconButton extends StatelessWidget {
@@ -17,9 +16,6 @@ class PlatformIconButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // if (Platform.isMacOS) {
-    //   return MacosIconButton(icon: icon, onPressed: onPressed);
-    // }
     return IconButton(
       icon: icon,
       iconSize: iconSize,

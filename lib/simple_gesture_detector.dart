@@ -1,10 +1,7 @@
-//  Copyright (c) 2019 Aleksander Woźniak
-//  Licensed under Apache License v2.0
-
 library simple_gesture_detector;
 
 import 'package:flutter/material.dart';
-import 'package:flutter_calendar/enums.dart';
+import 'package:calendar_cc/enums.dart';
 
 class SimpleGestureDetector extends StatefulWidget {
   const SimpleGestureDetector({

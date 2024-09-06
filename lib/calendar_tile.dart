@@ -3,7 +3,6 @@ import './date_utils.dart';
 import 'flutter_calendar_event.dart';
 import "package:intl/intl.dart";
 
-
 class FlutterCalenderTile extends StatelessWidget {
   final VoidCallback? onDateSelected;
   final DateTime? date;
@@ -43,7 +42,7 @@ class FlutterCalenderTile extends StatelessWidget {
     this.todayColor,
     this.eventColor,
     this.eventDoneColor,
-  //  this.image,
+    //  this.image,
   });
 
   /// This function [renderDateOrDayOfWeek] renders the week view or the month view. It is
@@ -77,7 +76,6 @@ class FlutterCalenderTile extends StatelessWidget {
               Container(
                 height: events != null ? 34 : 40,
                 width: 40,
-
                 // If this tile is the selected date, draw a colored circle on it. The circle is filled with
                 // the color passed with the selectedColor parameter or red color.
                 decoration: isSelected && date != null
@@ -160,13 +158,8 @@ class FlutterCalenderTile extends StatelessWidget {
     // If a child widget was passed as parameter, this widget gets used to
     // be rendered to display weekday or date
     if (child != null) {
-      return GestureDetector(
-        onTap: onDateSelected,
-        child: child,
-      );
+      return GestureDetector(onTap: onDateSelected, child: child);
     }
-    return Container(
-      child: renderDateOrDayOfWeek(context),
-    );
+    return Container(child: renderDateOrDayOfWeek(context));
   }
 }

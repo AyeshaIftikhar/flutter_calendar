@@ -1,4 +1,4 @@
-library flutter_calendar;
+library calendar_cc;
 
 import 'package:flutter/material.dart';
 import './date_utils.dart';
@@ -15,7 +15,7 @@ import 'platform_widgets.dart';
 import 'typedefs.dart';
 
 // Export FlutterCalendarEvent for using it in the application
-export 'flutter_calendar_event.dart';
+export './flutter_calendar_event.dart';
 
 class Range {
   final DateTime from;
@@ -530,8 +530,9 @@ class _CalendarState extends State<Calendar> {
     if (widget.eventListBuilder == null) {
       return Expanded(
         child: _selectedEvents != null && _selectedEvents!.isNotEmpty
-            ? ListView.builder(
+            ? ListView.separated(
                 padding: const EdgeInsets.all(0.0),
+                separatorBuilder: (context, index) => const Divider(),
                 itemBuilder: (BuildContext context, int index) {
                   final FlutterCalenderEvent event = _selectedEvents![index];
                   final String start =
@@ -540,7 +541,7 @@ class _CalendarState extends State<Calendar> {
                       DateFormat('HH:mm').format(event.endTime).toString();
                   return SizedBox(
                     height: widget.eventTileHeight ??
-                        MediaQuery.of(context).size.height * 0.075,
+                        MediaQuery.of(context).size.height * 0.1,
                     child: GestureDetector(
                       behavior: HitTestBehavior.opaque,
                       onTap: () {
@@ -669,7 +670,6 @@ class _CalendarState extends State<Calendar> {
   @override
   Widget build(BuildContext context) {
     updateEventsMap();
-
     // If _selectedEvents is not null, then we sort the events by isAllDay propeerty, so that
     // all day events are displayed at the top of the list.
     // Slightly inexxficient, to do this sort each time, the widget builds.
@@ -934,7 +934,3 @@ class _CalendarState extends State<Calendar> {
     return Utils.daysInRange(firstToDisplay, lastToDisplay).toList();
   }
 }
-
-
-
-
