@@ -1,7 +1,7 @@
 name: calendar_cc
 description:  Simple and clean flutter calendar with ability to  slide up/down to show
   weekly/monthly calendar. Fork of https://pub.dev/packages/flutter_clean_calendar
-version: 0.0.2
+version: 0.0.3
 homepage: https://github.com/AyeshaIftikhar/flutter_calendar.git
 repository: https://github.com/AyeshaIftikhar/flutter_calendar
 topics:

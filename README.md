@@ -2,10 +2,9 @@
 
 Simple flutter calendar based on [flutter_neat_and_clean_calendar](https://github.com/rwbr/flutter_calendar) package.
 
-| --------------------------------------- | --------------------------------------- | --------------------------------------- |
-|![Screenshot](https://github.com/AyeshaIftikhar/flutter_calendar/blob/main/screenshots/flutter_01.png)|
-![Screenshot](https://github.com/AyeshaIftikhar/flutter_calendar/blob/main/screenshots/flutter_02.png)|![Screenshot](https://github.com/AyeshaIftikhar/flutter_calendar/blob/main/screenshots/flutter_03.png)|
-| --------------------------------------- | --------------------------------------- | --------------------------------------- |
+| ![screenshot 1](https://github.com/AyeshaIftikhar/flutter_calendar/blob/main/flutter_01.png) |  ![screenshot 2](https://github.com/AyeshaIftikhar/flutter_calendar/blob/main/demo/flutter_02.png) | 
+| --------------------------------------- | --------------------------------------- | 
+| ![screenshot 3](https://github.com/AyeshaIftikhar/flutter_calendar/blob/main/demo/flutter_03.png)|  
 
 ## Features
 
