@@ -1,7 +1,13 @@
 name: flutter_calendar
-description: "A new Flutter package project."
+description:  Simple and clean flutter calendar with ability to  slide up/down to show
+  weekly/monthly calendar. Fork of https://pub.dev/packages/flutter_clean_calendar
 version: 0.0.1
-homepage:
+homepage: https://github.com/AyeshaIftikhar/flutter_calendar.git
+repository: https://github.com/AyeshaIftikhar/flutter_calendar
+topics:
+  - calendar
+  - flutter
+  - calendar_view
 
 environment:
   sdk: ^3.5.1
@@ -10,6 +16,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+
+  intl:
 
 dev_dependencies:
   flutter_test:
@@ -52,3 +60,6 @@ flutter:
   #
   # For details regarding fonts in packages, see
   # https://flutter.dev/to/font-from-package
+
+funding: 
+  - https://patreon.com/AyeshaIftikhar
