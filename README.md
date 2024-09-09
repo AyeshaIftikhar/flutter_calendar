@@ -4,7 +4,7 @@ Simple flutter calendar based on [flutter_neat_and_clean_calendar](https://githu
 
 | ![screenshot 1](https://github.com/AyeshaIftikhar/flutter_calendar/blob/main/screenshots/flutter_01.png) |  ![screenshot 2](https://github.com/AyeshaIftikhar/flutter_calendar/blob/main/screenshots/flutter_02.png) | 
 | --------------------------------------- | --------------------------------------- | 
-| ![screenshot 3](https://github.com/AyeshaIftikhar/flutter_calendar/blob/main/screenshot/flutter_03.png)|  
+| ![screenshot 3](https://github.com/AyeshaIftikhar/flutter_calendar/blob/main/screenshots/flutter_03.png)|  
 
 ## Features
 
